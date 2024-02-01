@@ -1,0 +1,9 @@
+.social-btn {
+    display: flex;
+    padding: var(--25, 10px) var(--5, 20px);
+    justify-content: center;
+    align-items: center;
+    gap: var(--2, 8px);
+    flex: 1 0 0;
+    align-self: stretch;
+}
