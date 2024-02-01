@@ -196,7 +196,7 @@ const Signup = () => {
                 <div className="text-sm font-medium text-gray-900 dark:text-white">
                   이미 계정이 있으신가요?{" "}
                   <a
-                    href="/login"
+                    href="/src/pages/Login"
                     className="text-blue-600 hover:underline dark:text-blue-500"
                   >
                     로그인 하기

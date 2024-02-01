@@ -85,7 +85,7 @@ const Login = () => {
             </p>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a
-              href="#"
+              href="src/pages#"
               className="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center"
             >
               Read more about our app
@@ -116,7 +116,7 @@ const Login = () => {
                 <div className="alert alert-success">{successMessage}</div>
               )}
               {error && <div className="alert alert-danger">{error}</div>}
-              <form className="mt-8 space-y-6" action="#" onSubmit={onSubmit}>
+              <form className="mt-8 space-y-6" action="src/pages#" onSubmit={onSubmit}>
                 <div>
                   <label
                     htmlFor="email"
@@ -173,7 +173,7 @@ const Login = () => {
                   </div>
                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                   <a
-                    href="#"
+                    href="src/pages#"
                     className="ms-auto text-sm font-medium text-blue-600 hover:underline dark:text-blue-500"
                   >
                     비밀번호를 잊으셨나요?
@@ -189,7 +189,7 @@ const Login = () => {
                 <div className="text-sm font-medium text-gray-900 dark:text-white">
                   계정이 없으신가요?{" "}
                   <a
-                    href="/signup"
+                    href="/src/pages/Signup"
                     className="text-blue-600 hover:underline dark:text-blue-500"
                   >
                     계정 생성하기

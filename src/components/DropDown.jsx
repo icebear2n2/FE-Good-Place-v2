@@ -17,7 +17,7 @@ export function DropDown() {
       <MenuHandler>
         <button className="bg-none border-none">
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-          <a href="#" className="block shrink-0">
+          <a href="src/components#" className="block shrink-0">
             <span className="sr-only">Profile</span>
             <img
               alt="profile"
